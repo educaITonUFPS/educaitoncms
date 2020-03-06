@@ -121,7 +121,6 @@
                                                            $_param = "";
                                                            include ("html_galerias.php");
                                                            include ("html_listacorreo.php");
-														   include ("html_ofertas.php");
                                                            include ("html_pad.php");
 ?>
             </div><!--col-md-4-->
