@@ -2,7 +2,7 @@
   $_myvisitantes = new Visitantes();
   $_myvisitantes->grabarVisitante();
   $_myvisitantes->obtenerVisitantes();
-?>
+  ?>
     <div class="footer-v1 off-container">
       <div class="footer">
         <div class="container">
@@ -80,7 +80,7 @@
         <div class="container">
           <div class="row">
             <div class="col-md-8">
-              <p>
+              <p> 2020 © All Rights Reserved. Desarrollado por:
                  <a href="mailto:uvirtual@ufps.edu.co">Equipo educaITon - UFPS</a>
               </p>
             </div>
@@ -108,9 +108,7 @@
             </div>
             <!-- End Social Links -->
           </div>
-		  <div class="row">
-			<a style="color:FFFFFF;">Importante: Este sitio web y todo su contenido corresponden a un proyecto en ejecución de Educación Virtual en proceso de Registro Calificado. Aunque se encuentre público su uso es restringido para los fines del proyecto. Si requiere informaci&oacute;n adicional, por favor cont&aacute;ctenos a  uvirtual@ufps.edu.co</a>
-          </div>
+		  <div class="alert alert-warning">Importante: Este sitio web y todo su contenido corresponden a un proyecto en ejecución de Educación Virtual en proceso de Registro Calificado. Aunque se encuentre público su uso es restringido para los fines del proyecto. Si requiere informaci&oacute;n adicional, por favor cont&aacute;ctenos a  uvirtual@ufps.edu.co</div>
         </div>
       </div><!--/copyright-->
     </div>
