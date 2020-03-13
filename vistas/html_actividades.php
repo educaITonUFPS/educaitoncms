@@ -17,6 +17,8 @@
       </div>
 <?php
     $_enlaces = $_myactividades->obtenerProximas($_desde,4);
+    
+    if ($_enlaces[0] != "error") {
     for ($_a = 0; $_a < count($_enlaces); $_a++) {
 ?>
       <div class="col-sm-3">
@@ -48,6 +50,9 @@
         </div>
       </div>
 <?php
+    }
+    }else{
+        echo '<h1 style="font-size: 20px; color:#fff;"><b>Lo sentimos, no hay actividades próximas a mostrar.</b></h1>';
     }
 ?>
     </div><!--/row-->
