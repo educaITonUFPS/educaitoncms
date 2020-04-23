@@ -1308,7 +1308,7 @@ p.readmore a {
     padding-bottom: 6px;
     margin-top: 8px;
     border: solid 1px #d6d4d3;
-    background: #ffffff url('../../img/s5_readmore.png') repeat-x bottom left;
+    background: #ffffff url('../../rsc/img/s5_readmore.png') repeat-x bottom left;
     color: #570101;
     text-decoration: none;
 }
@@ -1506,7 +1506,7 @@ table.calendar th.cell-header {width: 70px; border-bottom: 3px solid #fff; backg
 table.calendar td.cell-today {background-color: #e2e8f6;} /* today in the current month */
 table.calendar td.cell-weekend {background-color: #2c3e50; color: #fff;}
 table.calendar td {border: 3px solid #fff; height:60px; padding:3px; vertical-align: top; background-color:#fbfbfb; }
-table.calendar td.cell-hover:hover { background: #abb2b9 url('../../img/calendarbg.png') no-repeat center }
+table.calendar td.cell-hover:hover { background: #abb2b9 url('../../rsc/img/calendarbg.png') no-repeat center }
 /*
 table.calendar td.cell-hover:hover {background-color:#abb2b9;}
 */
@@ -1573,7 +1573,7 @@ p.pnormal {
   border: 2px dotted #eee;
   width:70%;
   height:100px;
-  background: #e0e0e0 url('../../img/upload.png') no-repeat center;
+  background: #e0e0e0 url('../../rsc/img/upload.png') no-repeat center;
   margin-bottom:15px;
 }
 
